@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Meta data and links only -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="Image/WebIcon.png">
+	<link rel="stylesheet" type="text/css" href="CSS/Style1.css">
+	<title>Contact page Donagh</title>
+</head>
+
+<body><!-- Body section containing most of the content like the form and home button-->
+	<div class="mainContact">
+		<h6 style="font-size: 30px; margin-top: -5px;">Contact page</h6>
+		<!-- Dummy inline Java script that alerts user when submitted -->
+		<script> 
+		function formSubmit(){
+		alert("Thank you! Your information has been submitted.");
+		}
+		</script>
+                         <form><button  formaction="Index.html" formmethod="get" style="margin-top: 40px;margin-left: -200px">Home Page</button></form>
+		<div class="Cform"> <!-- Form that takes in information -->
+			<form name="MyForm">
+				<ul>
+					<li><label for="fname">First name:</label><br>
+					<input type="text" id="fname" name="fname"></li>
+					<li><label for="lname">Last name:</label><br>
+					<input type="text" id="lname" name="lname"></li>
+					<li><label for="emailaddress">Email address:</label><br>
+					<input type="text" id="emailaddress" name="emailaddress"></li>
+					<li><label for="fname">Any comment you have:</label><br>
+					<textarea id="TAComments" name="Comments" rows="5" cols="50"></textarea></li>
+					</ul><br>
+				<input type="submit" value="Submit" onclick="formSubmit()">
+			</form>
+		</div>
+	</div>
+<footer> <!--footer that contains the iframe for copyright -->
+	<iframe class="frame1" src="Footer.html">
+	</iframe>
+</footer> 
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Meta data and links only -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="Image/WebIcon.png">
+	<link rel="stylesheet" type="text/css" href="CSS/Style1.css">
+	<title>Fixtures and Results Donagh</title>
+</head>
+<body><!-- Body section containing most of the content-->
+<header><!--Header containing a panel with the title and logo-->
+	&reg;<img id="Logo1" src="Image/PremLogo.png" alt="Premier league logo" style="width:120px;height:120px;">
+	<h1 id="Indexh1">PremHQ&trade;</h1>
+	<h4 id="indexh2">This is the Fixtures & Results page</h4><br><br>
+</header>
+	<div class="SideInfo"><!-- Side menu with nav bar and links for the home page-->
+		<p id="MenuText">This is the page for last matchday results and the fixtures for the next matchday.<br><br>Click the <strong>Teams</strong> button to view all the statistics and info on the teams in this season.<br><br>
+		Click the <strong>Players</strong> button to view the players stats from this season.<br><br>Click the&nbsp;<strong>home</strong> page to return to the home page.<br><br> Click the <strong>Contact Us!</strong> to give us feedback
+		</p>
+		<nav>
+			<ol class="SideButton"><!--Links to other pages-->
+				<li><form action="Teams.html" method="get"><button>&lt;Teams Page&gt;</button></form></li>
+				<li><form action="Players.html" method="get"><button>&lt;Players page&gt;</button></form></li>
+				<li><form action="Index.html" method="get"><button>&lt;Home Page&gt;</button></form></li>
+			</ol>
+		</nav>
+	</div><!-- Div containing two iframes to see results and fixtures -->
+	<iframe src="Thisweeksresults.html" class="Results1"> </iframe>
+	<iframe src="ThisWeeksFixtures.html" class="Fixtures1"> </iframe>
+<footer> <!-- Footer containing iframe and contact link-->
+	<div style="float:right"> <!-- Link for contact page-->
+		<a href="ContactPage.html">Contact Us!</a></div>
+	<div class="Foottext">
+		<iframe class="frame1" src="Footer.html">
+		</iframe>
+	</div>
+</footer>
+</body> 
+</html>
